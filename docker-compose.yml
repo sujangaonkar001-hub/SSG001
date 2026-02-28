@@ -1,9 +1,0 @@
-# Create repo with this file
-services:
-  darktunnel:
-    image: teddysun/across:latest  # Fast tunnel
-    ports:
-      - "443:443"
-    environment:
-      - SERVER_PORT=443
-      - SERVER_PROTOCOL=tcp,udp
