@@ -1,0 +1,11 @@
+{
+    "server": "0.0.0.0",
+    "server_port": 443,
+    "password": "ssg001",
+    "timeout": 300,
+    "method": "aes-256-gcm",
+    "fast_open": true,
+    "reuse_port": true,
+    "no_delay": true,
+    "udp_relay": true
+}
